@@ -1,0 +1,29 @@
+{
+  "name": "ticketreportapp",
+  "version": "1.0.0",
+  "description": "Ticket Report App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jira": "^0.10.0",
+    "jira-client": "^6.7.1",
+    "jira-connector": "^2.10.0",
+    "jsonwebtoken": "*",
+    "moment": "^2.24.0",
+    "mongoose": "*",
+    "mongoose-validator": "^2.1.0",
+    "passport": "*",
+    "passport-jwt": "*",
+    "request": "^2.88.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
